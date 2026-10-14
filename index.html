@@ -1301,7 +1301,6 @@
 
         async function handleCloudAuth(type) {
             if (!supabaseClient) {
-                // Хэрэв шууд холбогдсон бол автоматаар үүсгэнэ
                 supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
             }
 
